@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class View;
 
-@interface Nov15AppDelegate : UIResponder <UIApplicationDelegate>
+@interface Nov15AppDelegate: UIResponder <UIApplicationDelegate> {
+	View *view;
+	UIWindow *_window;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
 @end

@@ -16,6 +16,7 @@
 		CEC4CB9816547EDB00881DDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC4CB9716547EDB00881DDA /* Default.png */; };
 		CEC4CB9A16547EDB00881DDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC4CB9916547EDB00881DDA /* Default@2x.png */; };
 		CEC4CB9C16547EDB00881DDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC4CB9B16547EDB00881DDA /* Default-568h@2x.png */; };
+		CEC4CBA81654807D00881DDA /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4CBA71654807D00881DDA /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		CEC4CB9716547EDB00881DDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CEC4CB9916547EDB00881DDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CEC4CB9B16547EDB00881DDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEC4CBA61654807D00881DDA /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		CEC4CBA71654807D00881DDA /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				CEC4CB9416547EDB00881DDA /* Nov15AppDelegate.h */,
 				CEC4CB9516547EDB00881DDA /* Nov15AppDelegate.m */,
 				CEC4CB8C16547EDB00881DDA /* Supporting Files */,
+				CEC4CBA61654807D00881DDA /* View.h */,
+				CEC4CBA71654807D00881DDA /* View.m */,
 			);
 			path = Nov15;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			files = (
 				CEC4CB9216547EDB00881DDA /* main.m in Sources */,
 				CEC4CB9616547EDB00881DDA /* Nov15AppDelegate.m in Sources */,
+				CEC4CBA81654807D00881DDA /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
